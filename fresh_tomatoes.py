@@ -54,7 +54,7 @@ main_page_head = '''
             width: 100%;
             left: 0;
             top: 0;
-            background-color: white;
+            background-color: black;
         }
     </style>
     <script type="text/javascript" charset="utf-8">
@@ -151,6 +151,8 @@ def create_movie_tiles_content(movies):
 
 
 def open_movies_page(movies):
+    #Takes in my list of movies and generates an HTML file including this content, producing a website to showcase my favorite movies.
+    
     # Create or overwrite the output file
     output_file = open('fresh_tomatoes.html', 'w')
 
